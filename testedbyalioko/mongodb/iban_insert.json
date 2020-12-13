@@ -1,0 +1,23 @@
+[
+    {country: "HU",iban:"HU69107000246667654851100005",iban_owner:"Hungarian Foodbank Association", source: "https://www.elelmiszerbank.hu/en/help_us/send_your_donation_to_our_bank_account.html"},
+    {country: "HU",iban:"HU13100340020028287100000000",iban_owner:"University of Debrecen (Debreceni Egyetem)", source:"https://www.edu.unideb.hu/tartalom/downloads/Application_Forms-Kaplan_MCCEE_Etc/2019_PEBC-general.pdf"},
+    {country: "HU",iban:"HU02109000280000000762300934",iban_owner:"Hungarian Environmental Partnership Foundation", source: "https://okotars.hu/en/contact"},
+    {country: "HU",iban:"HU52109180010000000762301014",iban_owner:"Hungarian Environmental Partnership Foundation", source: "https://okotars.hu/en/contact"},
+    {country: "HU",iban:"HU16109180010000000762300013",iban_owner:"Hungarian Environmental Partnership Foundation", source: "https://okotars.hu/en/contact"},
+    {country: "HU",iban:"HU68103000021057903849020017",iban_owner:"BUDPORT Handling Ltd.", source: "https://pingvin-test-app.minibud.hu/en/contact"},
+    {country: "HU",iban:"HU73103000021057903848820010",iban_owner:"BUDPORT Handling Ltd.", source: "https://pingvin-test-app.minibud.hu/en/contact"},
+    {country: "HU",iban:"HU83103000021057903840420018",iban_owner:"BUDPORT Handling Ltd.", source: "https://pingvin-test-app.minibud.hu/en/contact"},
+    {country: "HU",iban:"HU53116000060000000078534928",iban_owner:"Professional Medical Services and Assistance Ltd.", source: "https://healthguardhungary.com/bankinginfo/"},
+    {country: "HU",iban:"HU98116000060000000078534894",iban_owner:"Professional Medical Services and Assistance Ltd.", source: "https://healthguardhungary.com/bankinginfo/"},
+    {country: "HU",iban:"HU82107005362530680850100002",iban_owner:"Professional Medical Services and Assistance Ltd.", source: "https://healthguardhungary.com/bankinginfo/"},
+    {country: "HU",iban:"HU25108000072000000012080018",iban_owner:"eCon Engineering Ltd.", source:"https://www.econengineering.com/contact/global/"},
+    {country: "HU",iban:"HU49108000073000000012080026",iban_owner:"eCon Engineering Ltd.", source:"https://www.econengineering.com/contact/global/"},
+    {country: "HU",iban:"HU73108000074000000012080034",iban_owner:"eCon Engineering Ltd.", source:"https://www.econengineering.com/contact/global/"},
+    {country: "HU",iban:"HU94100040121000801600220332",iban_owner:"University of Szeged", source:"https://u-szeged.hu/english/tuition-fees/payment-methods"},
+    {country: "HU",iban:"HU79100048851000201000120335",iban_owner:"University of Szeged", source:"https://u-szeged.hu/english/tuition-fees/payment-methods"},
+    {country: "HU",iban:"HU46108000077723700600000000",iban_owner:"British Council Hungary", source:"https://www.britishcouncil.hu/en/exam/ielts/book-test"},
+    {country: "HU",iban:"HU17109180010000006873830003",iban_owner:"T-Systems Hungary", source:"https://www.t-systems.hu/about-t-systems/introduction/company-details"},
+    {country: "HU",iban:"HU22109180010000006873830010",iban_owner:"T-Systems Hungary", source:"https://www.t-systems.hu/about-t-systems/introduction/company-details"},
+    {country: "HU",iban:"HU48109180010000006873830027",iban_owner:"T-Systems Hungary", source:"https://www.t-systems.hu/about-t-systems/introduction/company-details"},
+    {country: "HU",iban:"HU06117130052040656300000000",iban_owner:"DotRoll Kft.", source:"https://dotroll.com/en/contact/"}
+]
