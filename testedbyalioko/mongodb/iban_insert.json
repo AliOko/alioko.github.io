@@ -19,5 +19,18 @@
     {country: "HU",iban:"HU17109180010000006873830003",iban_owner:"T-Systems Hungary", source:"https://www.t-systems.hu/about-t-systems/introduction/company-details"},
     {country: "HU",iban:"HU22109180010000006873830010",iban_owner:"T-Systems Hungary", source:"https://www.t-systems.hu/about-t-systems/introduction/company-details"},
     {country: "HU",iban:"HU48109180010000006873830027",iban_owner:"T-Systems Hungary", source:"https://www.t-systems.hu/about-t-systems/introduction/company-details"},
-    {country: "HU",iban:"HU06117130052040656300000000",iban_owner:"DotRoll Kft.", source:"https://dotroll.com/en/contact/"}
+    {country: "HU",iban:"HU06117130052040656300000000",iban_owner:"DotRoll Kft.", source:"https://dotroll.com/en/contact/"},
+    {country: "LU",iban:"LU350030192306860000",iban_owner:"Federal Express Luxembourg S.à.r.l.", source:"https://www.fedex.com/en-lu/billing.html"},
+    {country: "DE",iban:"DE66760501010011040938",iban_owner:"Nehemiah Gateway gGmbH", source:"https://www.nehemiah-gateway.al/application/files/7215/3933/1205/N.G._Newsletter_January_2014.pdf"},
+    {country: "DE",iban:"DE52760501010011777711 ",iban_owner:"Nehemiah Gateway gGmbH", source:"https://www.nehemiah-gateway.org/en/get-involved/donate/donate-de?neues-spendenformular-3821/spende"},
+    {country: "AL",iban:"AL03209425530000550024220002 ",iban_owner:"Nehemiah Gateway Albania Foundation", source:"https://palidanigorre.files.wordpress.com/2019/04/nehemiah-gateway.pdf"},
+    {country: "ME",iban:"ME25510000000001998725",iban_owner:"ME-NET DOO PODGORICA", source:"https://menet.me/support/contact-us.php"},
+    {country: "CH",iban:"CH3400765000A08780704",iban_owner:"Eurocircuits Sàrl.", source:"https://www.eurocircuits.com/contact-information/"},
+    {country: "FR",iban:"FR7630004025550001026943312",iban_owner:"Eurocircuits S.A.R.L.", source:"https://www.eurocircuits.com/contact-information/"},
+    {country: "BE",iban:"BE66230030955043",iban_owner:"Eurocircuits N.V.", source:"https://www.eurocircuits.com/contact-information/"},
+    {country: "GB",iban:"GB87KRED16548703113811",iban_owner:"Eurocircuits (United-Kingdom) LTD.", source:"https://www.eurocircuits.com/contact-information/", bank_sort_code:"165487",bank_account:"03113811" },
+    {country: "DE",iban:"DE15370106001081081161",iban_owner:"Eurocircuits GmbH – Vertrieb Deutschland", source:"https://www.eurocircuits.com/contact-information/"},
+    {country: "MK",iban:"MK07300701000655493",iban_owner:"Makedonski Karitas", source:"https://www.caritas.eu/caritas-macedonia/"},
+    {country: "MK",iban:"MK07200001291154091",iban_owner:"Ensemble of Folk Instruments and Songs", source:"http://stefcestojkovski.mk/Events.aspx?SemID=1049"},
+    {country: "MK",iban:"MK07270722000009871",iban_owner:"Foundation Centre of Islamic Civilization", source:"https://www.academia.edu/8159898/2014_Skopje_Summer_School_South_East_European_University_Macedonia"}
 ]
