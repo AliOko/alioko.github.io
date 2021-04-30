@@ -1,0 +1,54 @@
+// Source: https://stackoverflow.com/questions/58320151/postman-how-to-add-items-into-array-and-then-using-array-elements-randomly
+let order = {
+    id: "7824t70ujhfiu",
+    totalCommerce: 5,
+    commerceItems:[
+        {
+            value: 'value 1',
+            anotheValue: 'another one 1',
+            name: 'name 1',
+            id: "iuhvue0743bg3y"
+        },
+        {
+            value: 'value 2',
+            anotheValue: 'another one 2',
+            name: 'name 2',
+            id: "sdhvuhsdupvhh9y470y3yg"
+        },
+        {
+            value: 'value 3',
+            anotheValue: 'another one 3',
+            name: 'name 3',
+            id: "o0402t207t782yt78"
+        },
+        {
+            value: 'value 4',
+            anotheValue: 'another one 4',
+            name: 'name 4',
+            id: "72b07t347y74y7by"
+        },
+        {
+            value: 'value 5',
+            anotheValue: 'another one 5',
+            name: 'name 5',
+            id: "oin98y49yb2y49y"
+        }
+    ]
+};
+
+pickRandom = () => {
+    var arr = order.commerceItems;
+    return arr[Math.floor(Math.random() *arr.length)];
+}
+
+const random_data = [pickRandom(), pickRandom()];
+
+const filter_array = [...new Map(random_data.map(item => [item.id, item])).values()];
+
+order = {
+    ...order,
+    totalCommerce: filter_array.length,
+    commerceItems: filter_array 
+  };
+
+console.log(order);
