@@ -4,9 +4,14 @@ https://github.com/ohmyzsh/ohmyzsh
 https://github.com/agnoster/agnoster-zsh-theme
 
 # plugins
-https://github.com/wting/autojump#installation - important: follow instraction after ./install.py
+https://github.com/wting/autojump#installation - important: follow instruction after ./install.py
 
 https://github.com/junegunn/fzf - installation by git
+
+```
+git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+```
 
 
 # Realeted links
