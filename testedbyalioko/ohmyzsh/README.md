@@ -13,6 +13,13 @@ git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugi
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
 ```
 
+# Tips and tricks
+* Restart your shell or reload config file
+```
+   source ~/.bashrc  # bash
+   source ~/.zshrc   # zsh
+```
+
 
 # Realeted links
 
