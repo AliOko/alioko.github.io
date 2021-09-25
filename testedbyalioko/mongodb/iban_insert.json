@@ -32,5 +32,5 @@
     {"country": "DE","iban":"DE15370106001081081161","iban_owner":"Eurocircuits GmbH – Vertrieb Deutschland", "source":"https://www.eurocircuits.com/contact-information/"},
     {"country": "MK","iban":"MK07300701000655493","iban_owner":"Makedonski Karitas", "source":"https://www.caritas.eu/caritas-macedonia/"},
     {"country": "MK","iban":"MK07200001291154091","iban_owner":"Ensemble of Folk Instruments and Songs", "source":"http://stefcestojkovski.mk/Events.aspx?SemID=1049"},
-    {country: "MK","iban":"MK07270722000009871","iban_owner":"Foundation Centre of Islamic Civilization", "source":"https://www.academia.edu/8159898/2014_Skopje_Summer_School_South_East_European_University_Macedonia"}
+    {"country": "MK","iban":"MK07270722000009871","iban_owner":"Foundation Centre of Islamic Civilization", "source":"https://www.academia.edu/8159898/2014_Skopje_Summer_School_South_East_European_University_Macedonia"}
 ]
