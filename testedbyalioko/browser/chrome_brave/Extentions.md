@@ -1,4 +1,4 @@
-# Utiles
+# Tools
 ## OneTab
 https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall?hl=pl
 ## Resource Override
