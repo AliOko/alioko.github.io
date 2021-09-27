@@ -1,5 +1,8 @@
-# OneTab
+# Utiles
+## OneTab
 https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall?hl=pl
+## Resource Override
+https://chrome.google.com/webstore/detail/resource-override/pkoacgokdfckfpndoffpifphamojphii/related
 # Testing data
 ## Bug-magnet
 https://chrome.google.com/webstore/detail/bug-magnet/efhedldbjahpgjcneebmbolkalbhckfi?hl=pl
