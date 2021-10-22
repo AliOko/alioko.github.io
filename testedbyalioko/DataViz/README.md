@@ -10,6 +10,9 @@ https://clauswilke.com/dataviz/index.html
 
 https://www.storytellingwithdata.com/
 
+# Useful staff
+https://github.com/Financial-Times/chart-doctor/tree/main/visual-vocabulary
+
 # Youtube
 ## Google Sheets
 
