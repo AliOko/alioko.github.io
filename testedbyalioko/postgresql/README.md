@@ -6,3 +6,6 @@ https://dbeaver.io/download/
 
 # Step by step
 * https://towardsdatascience.com/local-development-set-up-of-postgresql-with-docker-c022632f13ea
+
+# SQL
+https://github.com/AliOko/alioko.github.io/tree/master/testedbyalioko/DataViz#sql
