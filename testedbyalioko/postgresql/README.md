@@ -1,6 +1,7 @@
 # PostgreSQL with Docker
 * https://hub.docker.com/_/postgres
 * https://towardsdatascience.com/local-development-set-up-of-postgresql-with-docker-c022632f13ea
+* https://www.optimadata.nl/blogs/1/n8dyr5-how-to-run-postgres-on-docker-part-1
 
 # SQL
 
