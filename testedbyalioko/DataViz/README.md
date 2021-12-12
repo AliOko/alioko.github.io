@@ -21,6 +21,9 @@ https://github.com/Financial-Times/chart-doctor/tree/main/visual-vocabulary
   * playlist: https://datalab.cc/googlesheets/
 * Leila Gharani
   * 10 features of Google Sheets where Excel doesn’t compete (yet) https://youtu.be/n2DxXffRxBM
+* Productivity Spot
+  * Google Sheets Query Function: How to Use + Examples https://productivityspot.com/query-function-google-sheets/ 
+  * Using IMPORTFEED in Google Sheets to Fetch Feed from URL https://productivityspot.com/importfeed-google-sheets/
 
 
 ## SQL
@@ -28,4 +31,6 @@ https://github.com/Financial-Times/chart-doctor/tree/main/visual-vocabulary
 * Learn Basic SQL in 15 Minutes | Business Intelligence For Beginners | SQL Tutorial For Beginners:
   * Part 1: https://youtu.be/kbKty5ZVKMY
   * Part 2: https://youtu.be/gm6tNK_iOHs
+* How To Join Data In SQL? Discovering The Relational Database Model
+  * https://youtu.be/903CTKfJk74 
 
