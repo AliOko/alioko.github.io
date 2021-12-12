@@ -19,6 +19,9 @@ https://github.com/Financial-Times/chart-doctor/tree/main/visual-vocabulary
 * Full course created by Barton Poulson :+1:
   * freeCodeCamp: https://www.youtube.com/watch?v=N2opj8XzYBY
   * playlist: https://datalab.cc/googlesheets/
+* Leila Gharani
+  * 10 features of Google Sheets where Excel doesn’t compete (yet) https://youtu.be/n2DxXffRxBM
+
 
 ## SQL
 
