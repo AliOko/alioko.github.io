@@ -9,4 +9,7 @@ SELECT Title, Series, Bookinseries,
 FROM SIMPLE_DATASETS.SANDERSONBOOKS
 ORDER BY Series DESC, Bookinseries ASC;
 
---
+-- Timestamp https://docs.snowflake.com/en/sql-reference/functions/cast.html
+
+SELECT Releasedate::Timestamp
+FROM SIMPLE_DATASETS.SANDERSONBOOKS
