@@ -14,6 +14,10 @@ https://www.storytellingwithdata.com/
 https://github.com/Financial-Times/chart-doctor/tree/main/visual-vocabulary
 
 # Youtube
+
+## Data visualization
+* Storytelling with Data | Cole Nussbaumer Knaflic | Talks at Google https://youtu.be/8EMW7io4rSI
+
 ## Google Sheets
 
 * Full course created by Barton Poulson :+1:
