@@ -43,4 +43,37 @@
             docker exec -it demo psql -U postgres -c "CREATE DATABASE demo_db2"
             docker exec -it demo psql -U postgres -f /opt/demo/script_demo1.sql
             ```
-
+   * Very Academy
+      *  What are Docker Volumes? - A brief introduction with Commands and Docker-Compose example: https://youtu.be/wZbPmb4soTI
+         *  Host volume
+            * Lives on the Docker host's filesystem
+            * Access from within the container
+               ```
+               docker run-v/path/on/host:/path/in/container ...
+               ```
+         * Anonymous volume
+            * Docker handles storage location (host)
+            * Difficult to refer to for multiple containers
+               ```
+               docker run -v/path/in/container ...
+               ```
+         *  Named Volume
+            * Is like an anonymous volume
+            * Docker manages location of volume
+            * Difference: we name the volume
+               ```
+               docker volume create volume-name
+               docker run -v name:/path/in/container ...
+               ```
+         * Create and manage volumes
+            * Create outside the scope of the container
+               ```
+               # Create volume
+               docker volume create new-vol
+               # List volumes
+               docker volume is
+               # Inspect
+               docker volume inspect new-vol
+               # Remove
+               docker volume rm new-vol
+               ```
