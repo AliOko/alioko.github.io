@@ -10,7 +10,8 @@
 * DBeaver Community Free Universal Database Tool: https://dbeaver.io/download/
 
 ## Youtube
-https://github.com/AliOko/alioko.github.io/tree/master/testedbyalioko/DataViz#sql
+* [DataViz README](https://github.com/AliOko/alioko.github.io/tree/master/testedbyalioko/DataViz#sql)
+* CS50 2021 - Lecture 7 - SQL: https://youtu.be/PbcfkA_cmqM
 
 ## Practice
 * SQL Murder Mystery: https://mystery.knightlab.com/
