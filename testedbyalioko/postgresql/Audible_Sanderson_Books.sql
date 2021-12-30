@@ -35,4 +35,27 @@ SET
 	conarrator = 'Kate Reading',
 	timestamp = CURRENT_TIMESTAMP
 WHERE
-title = 'The Way of Kings'
+    title = 'The Way of Kings';
+
+ALTER TABLE SandersonBooks
+ADD "Cosmere universe" BOOLEAN,
+ADD "Cytoverse universe" BOOLEAN;
+
+UPDATE
+    SandersonBooks
+SET
+    "Cosmere universe" = TRUE,
+    "Cytoverse universe" = FALSE
+
+WHERE
+    series in ('Stormlight Archive','Mistborn');
+
+
+UPDATE
+    SandersonBooks
+SET
+    "Cosmere universe" = FALSE,
+    "Cytoverse universe" = TRUE
+
+WHERE
+    series in ('The Skyward Series', 'Skyward Flight');
