@@ -11,3 +11,7 @@
 
 ## Youtube
 https://github.com/AliOko/alioko.github.io/tree/master/testedbyalioko/DataViz#sql
+
+## Practice
+* SQL Murder Mystery: https://mystery.knightlab.com/
+* SQLZoo: https://sqlzoo.net/wiki/SQL_Tutorial
