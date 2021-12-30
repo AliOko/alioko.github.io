@@ -59,6 +59,3 @@ SET
 
 WHERE
     series in ('The Skyward Series', 'Skyward Flight');
-
-ALTER TABLE SandersonBooks
-ADD ""
