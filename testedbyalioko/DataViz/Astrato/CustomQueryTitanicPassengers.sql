@@ -41,3 +41,35 @@ CASE
     	END AS Maturity
 FROM MEDELLIN.TITANICPASSENGERS
 GROUP BY 1,3
+
+-- Summarised by age, class
+
+SELECT AGE::float AS Age,
+         COUNT(*) AS Passengers,
+        
+    CASE
+        WHEN Age < 12 THEN
+        'Child'
+        WHEN Age >= 12 THEN
+        'Adult'
+    END AS Maturity,
+    CASE
+        WHEN CLASS__DEPARTMENT LIKE '1st%' THEN
+        '1st'
+        WHEN CLASS__DEPARTMENT LIKE '2nd%' THEN
+        '2nd'
+        WHEN CLASS__DEPARTMENT LIKE '3rd%' THEN
+        '3rd'
+        ELSE 'Crew'
+    END AS DEPARTMENT
+FROM MEDELLIN.TITANICPASSENGERS
+GROUP BY  1,3,4
+
+-- Route data
+
+SELECT Route, Port, Country, Date::Date , Alpha3, From_, To_
+FROM (values(0,'Belfast','England','1912-04-02','GBR',NULL,'Belfast'), 
+     	    (1,'Southampton','England','1912-04-10', 'GBR', 'Belfast','Southampton'),
+     	    (2,'Cherbourg','France','1912-04-10','FRA', 'Southampton','Cherbourg'),
+     	    (3,'Queenstown','Ireland','1912-04-11','IRL', 'Cherbourg', 'Queenstown'),
+            (4,'New York','USA',NULL, 'USA', 'Queenstown','New York')) AS v1(Route, Port, Country, Date, Alpha3, From_, To_)
