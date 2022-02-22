@@ -65,6 +65,22 @@ SELECT AGE::float AS Age,
 FROM MEDELLIN.TITANICPASSENGERS
 GROUP BY  1,3,4
 
+-- Summarised by age,gender
+SELECT AGE::float AS Age,
+         GENDER,
+         COUNT(*) AS Passengers,
+    CASE
+        WHEN CLASS__DEPARTMENT LIKE '1st%' THEN
+        '1st'
+        WHEN CLASS__DEPARTMENT LIKE '2nd%' THEN
+        '2nd'
+        WHEN CLASS__DEPARTMENT LIKE '3rd%' THEN
+        '3rd'
+        ELSE 'Crew'
+    END AS DEPARTMENT
+FROM MEDELLIN.TITANICPASSENGERS
+GROUP BY  1,4,2
+
 -- Route data
 
 SELECT Route, Port, Country, Date::Date , Alpha3, From_, To_
