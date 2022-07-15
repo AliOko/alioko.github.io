@@ -11,6 +11,7 @@
 
 ## Tutorials
 * https://www.postgresqltutorial.com/
+* https://pgexercises.com/
 
 ## Youtube
 * [DataViz README](https://github.com/AliOko/alioko.github.io/tree/master/testedbyalioko/DataViz#sql)
@@ -19,3 +20,16 @@
 ## Practice
 * SQL Murder Mystery: https://mystery.knightlab.com/
 * SQLZoo: https://sqlzoo.net/wiki/SQL_Tutorial
+
+## Sample database
+* HR Sample: https://www.sqltutorial.org/sql-sample-database/
+* [Wiki PostgreSQL](https://wiki.postgresql.org/wiki/Sample_Databases)
+  * Airlines (with comments): https://postgrespro.com/docs/postgrespro/10/demodb-bookings-installation.html
+  * AdventureWorks (+ Docker): https://github.com/lorint/AdventureWorks-for-Postgres
+* [yugabyteDB](https://docs.yugabyte.com/preview/sample-data)
+  * PGExercise SQL
+    * [clubdata_ddl.sql](https://raw.githubusercontent.com/yugabyte/yugabyte-db/master/sample/clubdata_ddl.sql)
+    * [clubdata_data.sql](https://raw.githubusercontent.com/yugabyte/yugabyte-db/master/sample/clubdata_data.sql)
+  * Northwind SQL
+    * [northwind_ddl.sql](https://raw.githubusercontent.com/yugabyte/yugabyte-db/master/sample/northwind_ddl.sql)
+    * [northwind_data.sql](https://raw.githubusercontent.com/yugabyte/yugabyte-db/master/sample/northwind_data.sql)
