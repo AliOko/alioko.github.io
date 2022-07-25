@@ -1,3 +1,5 @@
+-- Data based on https://github.com/ali-ce/datasets/blob/master/Titanic/Passenger%2BCrew.csv
+
 -- Disembarked passengers
 
 SELECT DISEMBARKED_AT, COUNT(*) AS "Disembarked_passengers"
