@@ -22,3 +22,6 @@ pm.sendRequest({
     }}, (error, response) => {
   console.log(error ? error : response.json());
 });
+```
+
+[Sending requests from scripts by Postman](https://learning.postman.com/docs/writing-scripts/script-references/postman-sandbox-api-reference/#sending-requests-from-scripts)
