@@ -1,7 +1,7 @@
 In enviroments you need variables:
 | Variable  | Type    | Initial value          | Current value           |   |
 |-----------|---------|------------------------|-------------------------|---|
-| base_url  | default | https://app.astrato.io | https://app.astrato.io/ |   |
+| base_url  | default | https://app.astrato.io | https://app.astrato.io |   |
 | username  | default |                        | email                   |   |
 | user_pass | secret  |                        | password                |   |
 
