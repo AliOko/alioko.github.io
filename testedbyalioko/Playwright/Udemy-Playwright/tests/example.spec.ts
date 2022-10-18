@@ -61,20 +61,20 @@ test.describe.parallel.only('Astrato with hooks', () => {
         const nonExistingElement = await page.locator('h5')
         await expect(nonExistingElement).not.toBeVisible
     })
-    test.describe.skip('Screenshots', () => {
+    test.describe('Screenshots', () => {
 
-        test('Full page screenshot @astrato', async ({ page }) => {
+        test('Full page screenshot @astrato', async ({ page, browserName }) => {
             // 1. step is load website (beforeEach hook)
             // 2. take screenshot of full page
-            await page.screenshot({ path: 'screnshot.png', fullPage: true })
+            await page.screenshot({ path: `screenshots/${browserName}/screnshot.png`, fullPage: true })
         })
-        test('Single element screenshot h1 @astrato', async ({ page }) => {
+        test('Single element screenshot h1 @astrato', async ({ page, browserName }) => {
             const element = await page.$('h1')
-            await element.screenshot({ path: 'single_element_h1_screnshot.png' })
+            await element.screenshot({ path: browserName + '_single_element_h1_screnshot.png' })
         })
-        test('Single element screenshot astrato-sign-in-info @astrato', async ({ page }) => {
-            const element = await page.$('astrato-sign-in-info')
-            await element.screenshot({ path: 'single_element_screnshot.png' })
+        test('Single element screenshot astrato-sign-in-info @astrato', async ({ page, browserName }) => {
+            const element = await page.$('astrato-sign-in-info');
+            await element.screenshot({ path: `${browserName}_single_element_screnshot.png` })
         })
 
     })
