@@ -1,6 +1,6 @@
 ```mermaid
 
-  graph TD;
+  graph LR;
       D[Customer Service Ratings]-->A[Customer Service Ticket Created];
       B[Customer Service_First Response]-->A[Customer Service Ticket Created];
       C[Customer Service Resolved]-->A[Customer Service Ticket Created];
