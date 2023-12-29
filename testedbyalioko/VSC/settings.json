@@ -1,5 +1,5 @@
 {
-    "workbench.colorTheme": "Default Dark+",
+    "workbench.colorTheme": "Solarized Dark",
     "files.autoSave": "afterDelay",
     "[typescript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
